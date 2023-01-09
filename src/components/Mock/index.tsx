@@ -8,7 +8,6 @@ const Mock = ({ title = "Change-me" }: MockProps) => {
   return (
     <Styled.Wrapper>
       <h1>{title}</h1>
-      <p>tesetando</p>
     </Styled.Wrapper>
   );
 };
