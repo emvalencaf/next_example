@@ -1,14 +1,14 @@
 import * as Styled from "./styles";
 
 // components
-import Mock from "../../components/Mock";
+import Heading from "../../components/Heading";
 
 const Home = () => {
-  return (
-    <Styled.Wrapper>
-      <Mock title="Clone-me" />
-    </Styled.Wrapper>
-  );
+	return (
+		<Styled.Wrapper>
+			<Heading>olá</Heading>
+		</Styled.Wrapper>
+	);
 };
 
 export default Home;
